@@ -38,11 +38,13 @@ const metadata = {
 <Layout metadata={metadata}>
   <section class="px-6 sm:px-6 py-12 sm:py-16 lg:py-20 mx-auto max-w-4xl">
     <Headline
-      subtitle="江戸川区葛西を中心とした生活のことを配信します。安いスーパーとか事務手続きとか"
+      subtitle="江戸川区葛西を中心とした記事を書こいて行こうと思います。"
     >
       江戸川、葛西の生活記録
     </Headline>
-    <BlogList posts={page.data} />
+    <!-- <BlogList posts={page.data} /> -->
+     <a class="m-10 underline text-blue-700 text-center" href="/landing/boardgame-community">葛西若者ボードゲーム同好会(仮)参加者募集中！</a>
+     <!-- <p class="text-xl text-gray-600">comming soon...</p> -->
     <Pagination prevUrl={page.url.prev} nextUrl={page.url.next} />
     <!--
       <PostTags tags={allCategories} class="mb-2" title="Search by Categories:" isCategory />
