@@ -1,6 +1,6 @@
 site:
   name: AstroWind
-  site: 'https://astrowind.vercel.app'
+  site: 'https://kasai-newcomer.net'
   base: '/'
   trailingSlash: false
 
@@ -9,14 +9,14 @@ site:
 # Default SEO metadata
 metadata:
   title:
-    default: AstroWind
+    default: '江戸川生活ブログ'
     template: '%s — AstroWind'
   description: "\U0001F680 Suitable for Startups, Small Business, Sass Websites, Professional Portfolios, Marketing Websites, Landing Pages & Blogs."
   robots:
     index: true
     follow: true
   openGraph:
-    site_name: AstroWind
+    site_name: '江戸川生活ブログ'
     images:
       - url: '~/assets/images/poster.png'
         width: 1200
@@ -28,7 +28,7 @@ metadata:
     cardType: summary_large_image
 
 i18n:
-  language: en
+  language: ja
   textDirection: ltr
 
 apps:
