@@ -1,16 +1,16 @@
 ---
 import Layout from '~/layouts/LandingLayout.astro';
-import Poster from '~/assets/images/poster-1-2.png';
-import type { MetaData } from '~/types';
+import Poster from 'src/assets/images/poster-1d91-1.png?url'
 import { Icon } from 'astro-icon/components';
 
-const metadata: MetaData = {
+const metadata = {
   title: '江戸川区 若者ボドゲ同好会(仮)',
   openGraph: {
     siteName: '江戸川区 若者ボドゲ同好会(仮)',
     images: [
       {
-        url: Poster.src
+        url: Poster,
+        alt: '江戸川区 若者ボドゲ同好会(仮)のポスター'
       }
     ]
   }
