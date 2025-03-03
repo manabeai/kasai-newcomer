@@ -9,9 +9,9 @@ site:
 # Default SEO metadata
 metadata:
   title:
-    default: '江戸川生活ブログ'
-    template: '%s — AstroWind'
-  description: "\U0001F680 Suitable for Startups, Small Business, Sass Websites, Professional Portfolios, Marketing Websites, Landing Pages & Blogs."
+    default: '江戸川NewComerブログ'
+    template: '%s'
+  description: "江戸川区に引っ越して来た新卒のブログ"
   robots:
     index: true
     follow: true
